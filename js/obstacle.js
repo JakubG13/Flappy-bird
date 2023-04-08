@@ -18,3 +18,10 @@ class Obstacle {
     setTimeout(removeObstacles, 2000);
   }
 }
+
+const createObstacle = () => {
+  let obstacles = new Obstacle();
+  obstacles.createObstacles();
+};
+
+setInterval(createObstacle, 2000);
