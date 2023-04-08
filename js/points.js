@@ -6,9 +6,9 @@ const checkPoints = () => {
     document.querySelector(".obstacle__one").getBoundingClientRect().x
   );
   let birdX = Math.floor(bird.getBoundingClientRect().x);
-  console.log(birdX, obstX);
+  //   console.log(birdX, obstX);
 
-  if (birdX === obstX && flag === true) {
+  if (birdX >= obstX && birdX <= obstX + 5 && flag === true) {
     addPoints();
   }
 };
