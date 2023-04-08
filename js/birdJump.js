@@ -15,7 +15,7 @@ const findKey = (e) => {
     };
     setTimeout(end, 500);
   }
-  console.log(keys);
+  //   console.log(keys);
 };
 
 document.addEventListener("keydown", findKey);

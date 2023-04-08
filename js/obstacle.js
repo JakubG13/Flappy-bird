@@ -22,6 +22,7 @@ class Obstacle {
 const createObstacle = () => {
   let obstacles = new Obstacle();
   obstacles.createObstacles();
+  setInterval(checkPoints, 1);
 };
 
 setInterval(createObstacle, 2000);
