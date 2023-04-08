@@ -28,3 +28,17 @@ document.addEventListener("keyup", (e) => {
 // document.addEventListener("keypress", () => {
 //   keys = [];
 // });
+
+// mobile
+document.addEventListener("touchstart", () => {
+  const jump = () => {
+    let birdY = bird.getBoundingClientRect().y;
+    bird.style.top = birdY - 4 + "px";
+  };
+  let birdY = bird.getBoundingClientRect().y;
+  const idInterval = setInterval(jump, 1);
+  const end = () => {
+    clearInterval(idInterval);
+  };
+  setTimeout(end, 500);
+});
