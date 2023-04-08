@@ -5,7 +5,8 @@ const checkPoints = () => {
   let obstX = Math.floor(
     document.querySelector(".obstacle__one").getBoundingClientRect().x
   );
-  let birdX = Math.floor(bird.getBoundingClientRect().x) + 1;
+  let birdX = Math.floor(bird.getBoundingClientRect().x);
+  console.log(birdX, obstX);
 
   if (birdX === obstX && flag === true) {
     addPoints();
@@ -19,3 +20,5 @@ const addPoints = () => {
     flag = true;
   }, 1000);
 };
+
+setInterval(checkPoints, 1);
