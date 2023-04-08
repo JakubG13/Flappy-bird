@@ -1,0 +1,32 @@
+.obstacle__one {
+  width: 100px;
+  background-color: green;
+  position: fixed;
+  top: -5px;
+  //   right: 10%;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 30%;
+  animation: obstacleMove 2s linear 1 both;
+}
+
+.obstacle__two {
+  width: 100px;
+  background-color: green;
+  position: fixed;
+  bottom: -5px;
+  //   right: 10%;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 30%;
+  animation: obstacleMove 2s linear 1 both;
+}
+
+@keyframes obstacleMove {
+  0% {
+    right: -10%;
+  }
+  100% {
+    right: 110%;
+  }
+}

@@ -5,4 +5,4 @@ const birdFall = () => {
   bird.style.top = birdY + 2 + "px";
 };
 
-setInterval(birdFall, 1);
+// setInterval(birdFall, 1);
