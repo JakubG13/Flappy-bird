@@ -1,12 +1,13 @@
 .bird {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: rgb(255, 196, 0);
   position: fixed;
   top: 40%;
   left: 20%;
   border-radius: 50%;
   border: 3px solid black;
+  //   transform: rotate(45deg);
 }
 
 .bird__mouth {
@@ -14,8 +15,8 @@
   position: absolute;
   top: 60%;
   right: -5%;
-  height: 20px;
-  width: 50px;
+  height: 15px;
+  width: 40px;
   border-radius: 20px;
   border: 3px solid black;
 }
@@ -29,17 +30,17 @@
 }
 .bird__eye {
   position: absolute;
-  top: 10%;
-  right: 10%;
+  top: 8%;
+  right: 8%;
   background-color: white;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: 3px solid black;
 }
 .bird__eye-dot {
   width: 8px;
-  height: 20px;
+  height: 15px;
   border-radius: 10px;
   background-color: black;
   position: absolute;
