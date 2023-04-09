@@ -1,5 +1,7 @@
 let keys = [];
 const findKey = (e) => {
+  let backgroundMusic = document.querySelector(".music");
+  backgroundMusic.play();
   document.querySelector(".instruction").style.display = "none";
   if (e.key === "w") {
     keys.push(e.key);
