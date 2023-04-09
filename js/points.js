@@ -21,4 +21,8 @@ const addPoints = () => {
   }, 1000);
 };
 
-setInterval(checkPoints, 1);
+const checkPointsTimeout = () => {
+  setInterval(checkPoints, 1);
+};
+
+setTimeout(checkPointsTimeout, 2000);
