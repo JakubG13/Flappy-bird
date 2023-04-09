@@ -43,6 +43,7 @@ const checkHit = () => {
     let crashSound = new Audio("audio/clank-car-crash-collision-6206.mp3");
     crashSound.volume = 0.3;
     crashSound.play();
+    document.querySelector(".music").volume = "0";
   } else if (
     birdX + birdWidth <= obst2X + obst2Width + birdWidth &&
     birdX >= obst2X - birdWidth &&
@@ -55,6 +56,7 @@ const checkHit = () => {
     let crashSound = new Audio("audio/clank-car-crash-collision-6206.mp3");
     crashSound.volume = 0.3;
     crashSound.play();
+    document.querySelector(".music").volume = "0";
   }
 };
 

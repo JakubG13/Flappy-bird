@@ -11,6 +11,7 @@ const birdFall = () => {
     let crashSound = new Audio("audio/clank-car-crash-collision-6206.mp3");
     crashSound.volume = 0.3;
     crashSound.play();
+    document.querySelector(".music").volume = "0";
   }
 };
 
