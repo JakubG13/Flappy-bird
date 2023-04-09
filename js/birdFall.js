@@ -2,7 +2,7 @@ const bird = document.querySelector(".bird");
 let anotherFlag = true;
 const birdFall = () => {
   let birdY = bird.getBoundingClientRect().y;
-  bird.style.top = birdY + 2 + "px";
+  bird.style.top = birdY + 1.5 + "px";
   if ((birdY <= 0 || birdY >= window.innerHeight) && anotherFlag === true) {
     anotherFlag = false;
     document.querySelector(".endScreen").style.display = "flex";

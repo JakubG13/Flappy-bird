@@ -17,7 +17,7 @@ const findKey = (e) => {
 
     const jump = () => {
       let birdY = bird.getBoundingClientRect().y;
-      bird.style.top = birdY - 4 + "px";
+      bird.style.top = birdY - 3 + "px";
     };
     let birdY = bird.getBoundingClientRect().y;
     const idInterval = setInterval(jump, 1);
