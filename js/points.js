@@ -8,7 +8,7 @@ const checkPoints = () => {
   let birdX = Math.floor(bird.getBoundingClientRect().x);
   //   console.log(birdX, obstX);
 
-  if (birdX >= obstX && birdX <= obstX + 5 && flag === true) {
+  if (birdX >= obstX && birdX <= obstX + 50 && flag === true) {
     addPoints();
   }
 };
