@@ -1,5 +1,6 @@
 let keys = [];
 const findKey = (e) => {
+  document.querySelector(".instruction").style.display = "none";
   if (e.key === "w") {
     keys.push(e.key);
   }

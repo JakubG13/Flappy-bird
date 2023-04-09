@@ -1,0 +1,15 @@
+.instruction {
+  @media (min-width: 1200px) {
+    color: white;
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+    font-size: 3rem;
+    z-index: 10;
+    //   width: 100%;
+    //   text-align: center;
+    span {
+      color: yellow;
+    }
+  }
+}
