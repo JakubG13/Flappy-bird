@@ -15,7 +15,7 @@ class Obstacle {
       document.body.removeChild(obstacleOne);
       document.body.removeChild(obstacleTwo);
     };
-    setTimeout(removeObstacles, 2000);
+    setTimeout(removeObstacles, 2500);
   }
 }
 
@@ -25,4 +25,4 @@ const createObstacle = () => {
   setInterval(checkPoints, 1);
 };
 
-setInterval(createObstacle, 2000);
+setInterval(createObstacle, 2500);
