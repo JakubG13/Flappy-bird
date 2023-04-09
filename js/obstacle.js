@@ -1,6 +1,5 @@
 class Obstacle {
   constructor() {}
-  // metody
   createObstacles() {
     let obstacleOne = document.createElement("div");
     obstacleOne.classList.add("obstacle__one");

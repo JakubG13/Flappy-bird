@@ -7,7 +7,6 @@
   left: 20%;
   border-radius: 50%;
   border: 3px solid black;
-  //   transform: rotate(45deg);
 }
 
 .bird__mouth {
@@ -47,23 +46,3 @@
   top: 30%;
   left: 50%;
 }
-// .bird__wing {
-//   position: absolute;
-//   top: 50%;
-//   left: -25%;
-//   background-color: rgb(255, 196, 0);
-//   border: 3px solid black;
-//   height: 20px;
-//   width: 50px;
-//   transform: rotate(0deg) skew(-50deg, 0deg);
-//   animation: birdFly 0.4s linear infinite both;
-// }
-
-// @keyframes birdFly {
-//   50% {
-//     transform: rotate(-30deg) skew(-50deg, 0deg);
-//   }
-//   100% {
-//     transform: rotate(0deg) skew(-50deg, 0deg);
-//   }
-// }
