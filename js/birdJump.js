@@ -19,7 +19,6 @@ const findKey = (e) => {
       let birdY = bird.getBoundingClientRect().y;
       bird.style.top = birdY - 3 + "px";
     };
-    let birdY = bird.getBoundingClientRect().y;
     const idInterval = setInterval(jump, 1);
     const end = () => {
       clearInterval(idInterval);
@@ -49,7 +48,6 @@ document.addEventListener("touchstart", () => {
     let birdY = bird.getBoundingClientRect().y;
     bird.style.top = birdY - 4 + "px";
   };
-  let birdY = bird.getBoundingClientRect().y;
   const idInterval = setInterval(jump, 1);
   const end = () => {
     clearInterval(idInterval);
