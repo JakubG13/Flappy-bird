@@ -39,6 +39,10 @@ const checkHit = () => {
   ) {
     document.querySelector(".endScreen").style.display = "flex";
     bird.style.left = -1000 + "%";
+    bird.style.top = 1000 + "%";
+    let crashSound = new Audio("audio/clank-car-crash-collision-6206.mp3");
+    crashSound.volume = 0.3;
+    crashSound.play();
   } else if (
     birdX + birdWidth <= obst2X + obst2Width + birdWidth &&
     birdX >= obst2X - birdWidth &&
@@ -47,6 +51,10 @@ const checkHit = () => {
   ) {
     document.querySelector(".endScreen").style.display = "flex";
     bird.style.left = -1000 + "%";
+    bird.style.top = 1000 + "%";
+    let crashSound = new Audio("audio/clank-car-crash-collision-6206.mp3");
+    crashSound.volume = 0.3;
+    crashSound.play();
   }
 };
 

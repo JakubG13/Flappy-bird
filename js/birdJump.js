@@ -1,5 +1,8 @@
 let keys = [];
 const findKey = (e) => {
+  let jumpSound = new Audio("audio/cartoon-jump-6462.mp3");
+  jumpSound.volume = 0.5;
+  jumpSound.play();
   let backgroundMusic = document.querySelector(".music");
   backgroundMusic.play();
   document.querySelector(".bird__jump-clouds").style.display = "block";
@@ -22,19 +25,12 @@ const findKey = (e) => {
     };
     setTimeout(end, 500);
   }
-  //   console.log(keys);
 };
 
 document.addEventListener("keydown", findKey);
 document.addEventListener("keyup", (e) => {
-  //   let index = keys.indexOf(e.key);
-  //   keys.splice(index, 1);
   keys = [];
 });
-
-// document.addEventListener("keypress", () => {
-//   keys = [];
-// });
 
 // mobile
 document.addEventListener("touchstart", () => {

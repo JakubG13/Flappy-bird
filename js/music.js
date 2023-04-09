@@ -1,1 +1,1 @@
-document.querySelector(".music").volume = "0.2";
+document.querySelector(".music").volume = "0.05";
