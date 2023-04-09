@@ -54,4 +54,4 @@ const startChecking = () => {
   setInterval(checkHit, 1);
 };
 
-setTimeout(startChecking, 2000);
+setTimeout(startChecking, 2500);
