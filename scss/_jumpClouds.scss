@@ -1,0 +1,28 @@
+.bird__jump-clouds {
+  color: white;
+  font-size: 2rem;
+  opacity: 0.9;
+  display: none;
+}
+
+.jump-clouds-one {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+.jump-clouds-two {
+  position: absolute;
+  top: 65%;
+  left: -10%;
+}
+.jump-clouds-three {
+  position: absolute;
+  top: 50%;
+  left: -30%;
+}
+
+.jump-clouds-four {
+  position: absolute;
+  top: 70%;
+  left: -14%;
+}

@@ -2,6 +2,10 @@ let keys = [];
 const findKey = (e) => {
   let backgroundMusic = document.querySelector(".music");
   backgroundMusic.play();
+  document.querySelector(".bird__jump-clouds").style.display = "block";
+  setTimeout(() => {
+    document.querySelector(".bird__jump-clouds").style.display = "none";
+  }, 500);
   document.querySelector(".instruction").style.display = "none";
   if (e.key === "w") {
     keys.push(e.key);

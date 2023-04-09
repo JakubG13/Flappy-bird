@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flappy bird</title>
+    <script
+      src="https://kit.fontawesome.com/7ce8c6fa82.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
@@ -14,6 +19,12 @@
       </div>
       <div class="bird__mouth">
         <div class="bird__mouth-line"></div>
+      </div>
+      <div class="bird__jump-clouds jump-clouds">
+        <i class="jump-clouds-one fa-solid fa-cloud"></i>
+        <i class="jump-clouds-two fa-solid fa-cloud"></i>
+        <i class="jump-clouds-three fa-solid fa-cloud"></i>
+        <i class="jump-clouds-four fa-solid fa-cloud"></i>
       </div>
     </div>
     <div class="endScreen">
@@ -30,6 +41,7 @@
       controls
       src="audio/BossBattle_0050_BPM140_Cm_Goddess-of-Fate_L.mp3"
     ></audio>
+
     <script src="js/birdFall.js"></script>
     <script src="js/birdJump.js"></script>
     <script src="js/obstacle.js"></script>
