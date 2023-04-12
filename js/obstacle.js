@@ -24,4 +24,4 @@ const createObstacle = () => {
   setInterval(checkPoints, 1);
 };
 
-setInterval(createObstacle, 2500);
+setInterval(createObstacle, 1500);
